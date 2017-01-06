@@ -1,0 +1,1 @@
+# Ghost-mode-German-Translation
