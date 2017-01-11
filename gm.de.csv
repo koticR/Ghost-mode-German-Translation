@@ -12,7 +12,7 @@
 2110992005|        |preset_value_gm_es_none|Keine (Standard)
 2110992006|        |preset_value_gm_es_upscale|Hochskaliert
 2110992007|        |preset_value_gm_es_match|Angeglichen
-2110992013|        |attribute_name_frost_resistance_perc|Frostwiderstund
+2110992013|        |attribute_name_frost_resistance_perc|Frostwiderstand
 2110992014|        |attribute_name_armor_reduction_perc|Gegner - Schadenswiderstand Reduktion
 2110992015|        |attribute_name_potion_duration|Trankdauer
 2110992016|        |preset_value_gm_es_soft|Leicht hochskaliert
@@ -21,9 +21,9 @@
 2110992019|        |gm_sign_stats_channeling_damage_per_sec|Feuersturm - Schaden pro Sekunde
 2110992020|        |gm_sign_stats_yrden_traps|Magische Falle
 2110992021|        |gm_sign_stats_yrden_damage|Schaden der Magische Falle
-2110992022|        |gm_sign_stats_alt_yrden_duration|Dauer des magisches Geschützes
-2110992023|        |gm_sign_stats_alt_yrden_charges|Aufladungen des magisches Geschützes 
-2110992024|        |gm_sign_stats_alt_yrden_damage|Schaden des magisches Geschützes
+2110992022|        |gm_sign_stats_alt_yrden_duration|Dauer des magischen Geschütz
+2110992023|        |gm_sign_stats_alt_yrden_charges|Aufladungen des magischen Geschütz
+2110992024|        |gm_sign_stats_alt_yrden_damage|Schaden des magischen Geschütz
 2110992025|        |gm_sign_stats_alt_quen_returned_damage|Zurückgeworfener Schaden
 2110992026|        |gm_sign_stats_alt_quen_dmg_absorption|Schadensabsorption des aktiven Schilds
 2110992027|        |gm_sign_stats_alt_axii_chance|Axii Chance
@@ -54,18 +54,18 @@
 2110992055|        |attribute_name_vsSpecter_critical_hit_damage_bonus|Kritische Trefferstärke gegen Geister
 2110992056|        |attribute_name_vsOgre_critical_hit_damage_bonus|Kritische Trefferstärke gegen Ogroiden
 2110992057|        |attribute_name_vsVampire_critical_hit_damage_bonus|Kritische Trefferstärke gegen Vampire
-2110992058|        |attribute_name_vsBeast_resist_reduction|Schadenswiderstandsreduktion gegen Bestien
-2110992059|        |attribute_name_vsCursed_resist_reduction|Schadenswiderstandsreduktion gegen Verfluchte
-2110992060|        |attribute_name_vsDraconide_resist_reduction|Schadenswiderstandsreduktion gegen Drakoniden
-2110992061|        |attribute_name_vsHuman_resist_reduction|Schadenswiderstandsreduktion gegen Menschen
-2110992062|        |attribute_name_vsHybrid_resist_reduction|Schadenswiderstandsreduktion gegen Hybriden
-2110992063|        |attribute_name_vsInsectoid_resist_reduction|Schadenswiderstandsreduktion gegen Insektoiden
-2110992064|        |attribute_name_vsMagicals_resist_reduction|Schadenswiderstandsreduktion gegen Konstrukte
-2110992065|        |attribute_name_vsNecrophage_resist_reduction|Schadenswiderstandsreduktion gegen Nekrophagen
-2110992066|        |attribute_name_vsRelic_resist_reduction|Schadenswiderstandsreduktion gegen Relikte
-2110992067|        |attribute_name_vsSpecter_resist_reduction|Schadenswiderstandsreduktion gegen Geister
-2110992068|        |attribute_name_vsOgre_resist_reduction|Schadenswiderstandsreduktion gegen Ogroiden
-2110992069|        |attribute_name_vsVampire_resist_reduction|Schadenswiderstandsreduktion gegen Vampire
+2110992058|        |attribute_name_vsBeast_resist_reduction|Schadenswiderstand-Reduktion gegen Bestien
+2110992059|        |attribute_name_vsCursed_resist_reduction|Schadenswiderstand-Reduktion gegen Verfluchte
+2110992060|        |attribute_name_vsDraconide_resist_reduction|Schadenswiderstand-Reduktion gegen Drakoniden
+2110992061|        |attribute_name_vsHuman_resist_reduction|Schadenswiderstand-Reduktion gegen Menschen
+2110992062|        |attribute_name_vsHybrid_resist_reduction|Schadenswiderstand-Reduktion gegen Hybriden
+2110992063|        |attribute_name_vsInsectoid_resist_reduction|Schadenswiderstand-Reduktion gegen Insektoiden
+2110992064|        |attribute_name_vsMagicals_resist_reduction|Schadenswiderstand-Reduktion gegen Konstrukte
+2110992065|        |attribute_name_vsNecrophage_resist_reduction|Schadenswiderstand-Reduktion gegen Nekrophagen
+2110992066|        |attribute_name_vsRelic_resist_reduction|Schadenswiderstand-Reduktion gegen Relikte
+2110992067|        |attribute_name_vsSpecter_resist_reduction|Schadenswiderstand-Reduktion gegen Geister
+2110992068|        |attribute_name_vsOgre_resist_reduction|Schadenswiderstand-Reduktion gegen Ogroiden
+2110992069|        |attribute_name_vsVampire_resist_reduction|Schadenswiderstand-Reduktion gegen Vampire
 2110992070|        |attribute_name_vsHuman_attack_power|Angriffsstärke gegen Menschen
 2110992071|da7e5ba4||Jedes Teil einer leichten Rüstung erhöht die kritische Trefferchance um $S$% und die kritische Trefferstärke um $S$%.
 2110992072|da7e5ba6||Jedes Teil einer schweren Rüstung erhöht das Maximum an Gesundheit um $S$% und den Adrenalingewinn um $S$%.
@@ -115,7 +115,7 @@
 2110992122|c1e68f85||Erfolgreich ausgeführte Konter erhöhen die Angriffsstärke des nächsten Angriffs um $I$%. <br>Jeder Adrenalinpunkt erhöht die Chance auf einen Niederschlag des Gegners um $I$% (max $I$%, Adrenalin wird verbraucht bei erfolgreichem Treffer). <br>Erhöht die kritische Trefferchance um $I$%.
 2110992123|cea74411||Erfolgreich ausgeführte Konter erhöhen die Angriffsstärke des nächsten Angriffs um $I$%.
 2110992124|cf2b2da2||Ein Schild das solang anhält bis es $I$ Punkte Schaden absorbiert hat. <br>Schadensabsorption skaliert mit der Zeichenintensität. <br>Derzeitige Absorption: $I$ - Schilddauer: $I$s.
-2110992125|163a8e77||Schaden der von Igni zugefügt wird reduziert außerdem dauerhaft die Rüstung des Gegners pro Treffer um $S$%. <br>Skaliert mit der Zeichenintesität. <br>Der Maximale Wert von $S$% kann nicht überschritten werden.
+2110992125|163a8e77||Schaden der von Igni zugefügt wird reduziert dauerhaft die Rüstung des Gegners pro Treffer um $S$%. <br>Skaliert mit der Zeichenintesität. <br>Der Maximale Wert von $S$% kann nicht überschritten werden.
 2110992126|cf2b2da0||Feuerstoß der $I$ Schaden verursacht und außerdem eine $I$% Chance hat den Gegner in Brand zu stecken. <br>Schaden erhöht sicht mit der Zeichenintensität. <br>Derzeitiger Schaden: $I$.
 2110992127|163a8e71||Alternativer Zeichen Modus:<br>Erzeugt einen konstanten fokusierten Feuerstrahl der das Ziel in Brand setzt und dabei $I$ Schaden pro Sekunde verursacht. <br>Schaden skaliert mit der Zeichenstärke (derzeitiger Schaden: $I$). <br>Verbraucht $I$ Punkte Ausdauer pro Sekunde.
 2110992128|71d0c1e4||Alternativer Zeichen Modus:<br>Erzeugt einen konstanten fokusierten Feuerstrahl der das Ziel in Brand setzt und dabei $I$ Schaden pro Sekunde verursacht. <br>Schaden skaliert mit der Zeichenstärke (derzeitiger Schaden: $I$). <br>Verbraucht $I$ Punkte Ausdauer pro Sekunde.
@@ -143,8 +143,8 @@
 2110992153|c32e766a||Kritische Trefferstärke Bonus
 2110992154|28838f82||Rüstungsdurchdringung
 2110992155|f35fcb73||Rüstungsdurchdringung
-2110992156|        |attribute_name_vitalityRegen|Gesundheitsregeneration außerhalb des Kampfs
-2110992157|        |attribute_name_vitalityCombatRegen|Gesundheitsregeneration während des Kampfs
+2110992156|        |attribute_name_vitalityRegen|Vitalität-Regeneration außerhalb des Kampfs
+2110992157|        |attribute_name_vitalityCombatRegen|Vitalität-Regeneration während des Kampfs
 2110992158|c95c6e28||Wenn bei voller Gesundheit, erhöht jede weitere Gesundheitsregeneration den Schaden des nächsten Schwert oder Zeichangriff bis zu +$I$%.
 2110992159|ccc61f66||Jedes Nahrungsmittel hält $I$% länger, schmeckt dafür aber wie Pirogge.
 2110992160|22156cd6||Wann immer ein Magisches Geschütz einen Gegner trifft wird eine Magische Falle an dieser Stelle plaziert.
@@ -159,7 +159,7 @@
 2110992169|        |gm_used_razor_success|Geralt ist jetzt glatt rasiert
 2110992170|329005f2||Erlaubt es dir eine leichte Armbrust zu benutzen. Nicht geziehlte Schüsse verursachen 50% weniger Schaden.
 2110992171|5f63dbf5||Erlaubt es dir Bomben herzustellen die auf Gegner geworfen werden können. Nicht geziehlte Würfe verursachen 50% weniger Schaden.
-2110992172|754d1891||Zusätzlich zum normalen Kampftrance Zustand erhöht jeder Adrenalinpunkt die Zeichenintensität um $I$%.
+2110992172|754d1891||Zusätzlich zum normalen Kriegstrance Zustand erhöht jeder Adrenalinpunkt die Zeichenintensität um $I$%.
 2110992173|        |item_desc_razor_mod|Wird für die Rasur benötigt.
 2110992174|da7e5ba5||Jedes Teil einer mittleren Rüstung erhöht die Zeichenintensität um $S$% und die Ausdauerregeneration um $S$%.
 2110992175|b1173fc7||Das Ziel ist um $I$% verlangsamt während Geralt Axii wirkt. Erhöht die Effektivität von Axii in Dialogen.
@@ -260,9 +260,9 @@
 2110992271|        |option_gm_monster_exp_slider|Kampf-Erfahrung Modifikator
 2110992272|        |attribute_name_knockdown|Niederschlagschance
 2110992273|b1173fc2||Erhöht Schwere Niederschlagschance um $I$%.
-2110992274|163a8e76||Fügt $I$ Punkte auf Feuerschaden und $I$ Punkte Schaden pro Sekunde auf Feuersturm.
-2110992275|b1173fc6||Fügt $I$ Punkte auf den Schaden von Magisches Geschützen.
-2110992276|b1173fc5||Fügt $I$ Punkte auf die Schild-Schadensabsorption.
+2110992274|163a8e76||Erhöht den Feuerschaden von Feuersturm um $I$ Punkte und den Schaden pro Sekunde um $I$ Punkte Schaden.
+2110992275|b1173fc6||Erhöht den Schaden von magischen Geschützen um $I$.
+2110992276|b1173fc5||Erhöht Schild-Schadensabsorption um $I$ Punkte Schaden.
 2110992277|        |gm_sign_stats_axii_duration_confusion|Dauer der Verwirrung
 2110992278|        |gm_sign_stats_axii_duration_control|Dauer der Kontrolle
 2110992279|163a8e70||Alternativer Zeichen Modus:<br>Aard trifft alle Gegner in Reichweite. Zeichenintensität ist um $I$% geringer in diesem Modus.
