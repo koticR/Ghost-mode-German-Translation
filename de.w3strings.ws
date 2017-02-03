@@ -296,6 +296,7 @@ function _test_verifyW3strings() : int {
     if (!assertTrue(GetLocStringById(2110992307) == "Tötungszähler", "w3string.byId: 2110992307")) failed += 1;
     if (!assertTrue(GetLocStringById(2110992308) == "Humanoiden", "w3string.byId: 2110992308")) failed += 1;
     if (!assertTrue(GetLocStringById(2110992309) == "Einzigartige Kreaturen", "w3string.byId: 2110992309")) failed += 1;
+    if (!assertTrue(GetLocStringById(2110992310) == "Erhöht die kritische Trefferchance von Armbrüsten um $I$% und die kritische Trefferstärke von Armbrüsten um $I$%.", "w3string.byId: 2110992310")) failed += 1;
 
     // test by key
     if (!assertTrue(GetLocStringByKey("panel_Mods") == "Mods", "w3string.byKey: panel_Mods")) failed += 1;
