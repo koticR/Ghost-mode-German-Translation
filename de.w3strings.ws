@@ -273,8 +273,8 @@ function _test_verifyW3strings() : int {
     if (!assertTrue(GetLocStringById(2110992281) == "Alternativer Zeichen Modus:<br>Aard trifft alle Gegner in Reichweite. Zeichenintensität ist nicht länger geringer in diesem Modus.", "w3string.byId: 2110992281")) failed += 1;
     if (!assertTrue(GetLocStringById(2110992282) == "Aard verursacht jetzt $I$ Schaden. Schaden erhöht sicht mit der Zeichenintensität. Derzeitiger Schaden: $I$.", "w3string.byId: 2110992282")) failed += 1;
     if (!assertTrue(GetLocStringById(2110992283) == "Aard verursacht jetzt $I$ Schaden. Schaden erhöht sicht mit der Zeichenintensität. Derzeitiger Schaden: $I$.", "w3string.byId: 2110992283")) failed += 1;
-    if (!assertTrue(GetLocStringById(2110992284) == "Eine Zielgerichtete Druckwelle von telekinetischer Energie die Gegner Betäubt und eine $I$% Chance auf Niederschlagen hat. <br>Schwere Niederschlagschance ist $I$%. <br>Die Chance skaliert mit der Zeichenintensität.", "w3string.byId: 2110992284")) failed += 1;
-    if (!assertTrue(GetLocStringById(2110992286) == "Vernebelt den Verstand eines Gegners, was ihn vorübergehend aus dem Kampf nimmt. <br>Verwirrungsdauer: $S$ Sekunden. <br>Skaliert mit der Zeichenintensität.", "w3string.byId: 2110992286")) failed += 1;
+    if (!assertTrue(GetLocStringById(2110992284) == "Eine Zielgerichtete Druckwelle von telekinetischer Energie die Gegner Betäubt und eine $I$% Chance auf Niederschlagen hat. <br>Schwere Niederschlagschance ist $I$%. <br>Die Chance skaliert mit der Zeichenintensität. <br>Erhöht die kritische Trefferchance gegen niedergeschlagene Gegner um 15%.", "w3string.byId: 2110992284")) failed += 1;
+    if (!assertTrue(GetLocStringById(2110992286) == "Vernebelt den Verstand eines Gegners, was ihn vorübergehend aus dem Kampf nimmt. <br>Verwirrungsdauer: $S$ Sekunden. <br>Skaliert mit der Zeichenintensität. <br>Erhöht die kritische Trefferchance gegen benommene Gegner um 15%.", "w3string.byId: 2110992286")) failed += 1;
     if (!assertTrue(GetLocStringById(2110992287) == "Die Dauer von Axii ist um $I$% erhöht.", "w3string.byId: 2110992287")) failed += 1;
     if (!assertTrue(GetLocStringById(2110992288) == "Der anvisierte Gegner wird für $I$s zum Alliierten und erhält einen $I$% Bonus auf seine Angriffskraft. Effektdauer skaliert mit der Zeichenintensität. Derzeitige Dauer: $I$s.", "w3string.byId: 2110992288")) failed += 1;
     if (!assertTrue(GetLocStringById(2110992289) == "Der anvisierte Gegner wird für $I$s zum Alliierten und erhält einen $I$% Bonus auf seine Angriffskraft. Effektdauer skaliert mit der Zeichenintensität. Derzeitige Dauer: $I$s.", "w3string.byId: 2110992289")) failed += 1;
@@ -297,6 +297,8 @@ function _test_verifyW3strings() : int {
     if (!assertTrue(GetLocStringById(2110992308) == "Humanoiden", "w3string.byId: 2110992308")) failed += 1;
     if (!assertTrue(GetLocStringById(2110992309) == "Einzigartige Kreaturen", "w3string.byId: 2110992309")) failed += 1;
     if (!assertTrue(GetLocStringById(2110992310) == "Erhöht die kritische Trefferchance von Armbrüsten um $I$% und die kritische Trefferstärke von Armbrüsten um $I$%.", "w3string.byId: 2110992310")) failed += 1;
+    if (!assertTrue(GetLocStringById(2110992311) == "Gewährt 15% zusätzlichen Widerstand gegen alle Schadensarten wenn die Traglast bei 60 oder weniger liegt, der Bonus verringert sich je weiter man über einer Traglast von 60 liegt.", "w3string.byId: 2110992311")) failed += 1;
+    if (!assertTrue(GetLocStringById(2110992312) == "Nutze synchronisierten Lager Modus als Standard", "w3string.byId: 2110992312")) failed += 1;
 
     // test by key
     if (!assertTrue(GetLocStringByKey("panel_Mods") == "Mods", "w3string.byKey: panel_Mods")) failed += 1;
@@ -419,6 +421,7 @@ function _test_verifyW3strings() : int {
     if (!assertTrue(GetLocStringByKey("gm_kills_kill_count") == "Tötungszähler", "w3string.byKey: gm_kills_kill_count")) failed += 1;
     if (!assertTrue(GetLocStringByKey("gm_kills_humans_total") == "Humanoiden", "w3string.byKey: gm_kills_humans_total")) failed += 1;
     if (!assertTrue(GetLocStringByKey("gm_kills_bosses_total") == "Einzigartige Kreaturen", "w3string.byKey: gm_kills_bosses_total")) failed += 1;
+    if (!assertTrue(GetLocStringByKey("option_gm_stash_sync_toggle") == "Nutze synchronisierten Lager Modus als Standard", "w3string.byKey: option_gm_stash_sync_toggle")) failed += 1;
 
     // return number of failed
     return failed;

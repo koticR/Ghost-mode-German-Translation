@@ -270,8 +270,8 @@
 2110992281|71d0be24||Alternativer Zeichen Modus:<br>Aard trifft alle Gegner in Reichweite. Zeichenintensität ist nicht länger geringer in diesem Modus.
 2110992282|71d0d0e8||Aard verursacht jetzt $I$ Schaden. Schaden erhöht sicht mit der Zeichenintensität. Derzeitiger Schaden: $I$.
 2110992283|71d0d0e9||Aard verursacht jetzt $I$ Schaden. Schaden erhöht sicht mit der Zeichenintensität. Derzeitiger Schaden: $I$.
-2110992284|cf2b2d9f||Eine Zielgerichtete Druckwelle von telekinetischer Energie die Gegner Betäubt und eine $I$% Chance auf Niederschlagen hat. <br>Schwere Niederschlagschance ist $I$%. <br>Die Chance skaliert mit der Zeichenintensität.
-2110992286|cf2b2da3||Vernebelt den Verstand eines Gegners, was ihn vorübergehend aus dem Kampf nimmt. <br>Verwirrungsdauer: $S$ Sekunden. <br>Skaliert mit der Zeichenintensität.
+2110992284|cf2b2d9f||Eine Zielgerichtete Druckwelle von telekinetischer Energie die Gegner Betäubt und eine $I$% Chance auf Niederschlagen hat. <br>Schwere Niederschlagschance ist $I$%. <br>Die Chance skaliert mit der Zeichenintensität. <br>Erhöht die kritische Trefferchance gegen niedergeschlagene Gegner um 15%.
+2110992286|cf2b2da3||Vernebelt den Verstand eines Gegners, was ihn vorübergehend aus dem Kampf nimmt. <br>Verwirrungsdauer: $S$ Sekunden. <br>Skaliert mit der Zeichenintensität. <br>Erhöht die kritische Trefferchance gegen benommene Gegner um 15%.
 2110992287|b1173fc8||Die Dauer von Axii ist um $I$% erhöht.
 2110992288|163a8e74||Der anvisierte Gegner wird für $I$s zum Alliierten und erhält einen $I$% Bonus auf seine Angriffskraft. Effektdauer skaliert mit der Zeichenintensität. Derzeitige Dauer: $I$s.
 2110992289|71d0cd27||Der anvisierte Gegner wird für $I$s zum Alliierten und erhält einen $I$% Bonus auf seine Angriffskraft. Effektdauer skaliert mit der Zeichenintensität. Derzeitige Dauer: $I$s.
@@ -294,3 +294,5 @@
 2110992308|        |gm_kills_humans_total|Humanoiden
 2110992309|        |gm_kills_bosses_total|Einzigartige Kreaturen
 2110992310|1f70c026||Erhöht die kritische Trefferchance von Armbrüsten um $I$% und die kritische Trefferstärke von Armbrüsten um $I$%.
+2110992311|e71d7c8c||Gewährt 15% zusätzlichen Widerstand gegen alle Schadensarten wenn die Traglast bei 60 oder weniger liegt, der Bonus verringert sich je weiter man über einer Traglast von 60 liegt.
+2110992312|        |option_gm_stash_sync_toggle|Nutze synchronisierten Lager Modus als Standard
