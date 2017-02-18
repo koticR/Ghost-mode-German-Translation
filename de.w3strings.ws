@@ -299,6 +299,7 @@ function _test_verifyW3strings() : int {
     if (!assertTrue(GetLocStringById(2110992310) == "Erhöht die kritische Trefferchance von Armbrüsten um $I$% und die kritische Trefferstärke von Armbrüsten um $I$%.", "w3string.byId: 2110992310")) failed += 1;
     if (!assertTrue(GetLocStringById(2110992311) == "Gewährt 15% zusätzlichen Widerstand gegen alle Schadensarten wenn die Traglast bei 60 oder weniger liegt, der Bonus verringert sich je weiter man über einer Traglast von 60 liegt.", "w3string.byId: 2110992311")) failed += 1;
     if (!assertTrue(GetLocStringById(2110992312) == "Nutze synchronisierten Lager Modus als Standard", "w3string.byId: 2110992312")) failed += 1;
+    if (!assertTrue(GetLocStringById(2110992313) == "Wenn mindestens 1 Adrenalinpunkt verfügbar ist wird dieser zum Wirken von Zeichen verwendet anstelle von Ausdauer.", "w3string.byId: 2110992313")) failed += 1;
 
     // test by key
     if (!assertTrue(GetLocStringByKey("panel_Mods") == "Mods", "w3string.byKey: panel_Mods")) failed += 1;

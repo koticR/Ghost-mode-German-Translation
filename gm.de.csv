@@ -296,3 +296,4 @@
 2110992310|1f70c026||Erhöht die kritische Trefferchance von Armbrüsten um $I$% und die kritische Trefferstärke von Armbrüsten um $I$%.
 2110992311|e71d7c8c||Gewährt 15% zusätzlichen Widerstand gegen alle Schadensarten wenn die Traglast bei 60 oder weniger liegt, der Bonus verringert sich je weiter man über einer Traglast von 60 liegt.
 2110992312|        |option_gm_stash_sync_toggle|Nutze synchronisierten Lager Modus als Standard
+2110992313|da7e5ba8||Wenn mindestens 1 Adrenalinpunkt verfügbar ist wird dieser zum Wirken von Zeichen verwendet anstelle von Ausdauer.
