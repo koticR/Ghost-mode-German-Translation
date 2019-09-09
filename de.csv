@@ -359,11 +359,11 @@
 2110992382|f4fd119f||Der Toxizitätsversatz reserviert einen Betrag der maximalen Toxizität für die Effektdauer des Absuds.
 2110992383|7d183fe6||Adrenalingewinn für schnelle Angriffe
 2110992384|7cddfb97||Adrenalingewinn für starke Angriffe
-2110992386|d02fd0a4||Once they reach their maximum level, Adrenaline Points steadily decline until they reach zero at a rate of $S$ points per sec. During this time Vitality regenerates faster by $S$%/sec, Stamina regenerates faster by $S$%/sec, and Toxicity declines faster by $S$ points/sec.
-2110992387|f098e2d3||Igni's basic attack strikes all opponents in a 360-degree radius and deals $I$ more damage (scales with Sign Intensity). Burning chance is decreased by $I$%.
-2110992388|fc92152b||Getting hit more than once within $S$ sec makes you immune to damage for the next $S$ sec.
-2110992389|e71d7c8c||When enemies damage you in melee combat, they get an Acid effect that reduces their Damage Resistance by $I$% (max $I$%).
-2110992390|fc92152c||Damage dealt to enemies in spectral form is increased from $I$% to $I$% of normal damage. Damage taken from enemies in spectral form is reduced by $I$%.
+2110992386|d02fd0a4||Wenn deine Adrenalinpunkt ihr Maximum erreicht haben, beginnen sie mit einer Geschwindigkeit von $S$ Punkte pro Sekunde zurück auf Null zu fallen. Während dieser Zeit regeneriert sich deine Vitalität um $S$%/sek schneller, deine Ausdauer um $S$%/sek schneller und deine Toxizität verringert sich um $S$ Punkte pro Sekunde schneller.
+2110992387|f098e2d3||Ignis Angriff trifft alle Gegner in einem 360-Grad Radius und fügt $I$ mehr Schaden zu. Die Chance auf Verbrennen ist dabei aber um $I$% verringert.<br>(Skaliert mit Zeichenintesität)
+2110992388|fc92152b||Wenn du innerhalb von $S$ Sekunden mehrfach Schaden nimmst, aktiviert sich ein Effekt der dich für $S$ Sekunden lang Immun gegen Schaden werden lässt.
+2110992389|e71d7c8c||Wenn Gegner dich im Nahkampf verletzen, befällt sie ein Säure Effekt der ihren Schadenswiderstand um $I$% (max. $I$%) reduziert.
+2110992390|fc92152c||Schaden gegen Gegner in Spektralform ist von $I$% auf $I$% des normalen Schadens erhöht. Schaden von Gegnern in Spektralform ist um $I$% reduziert.
 2110992391|18fb4c67||Zusätzliche Ausdauerregeneration im Kampf
 2110992392|fb3a17d6||Zusätzliche Ausdauerregeneration außerhalb des Kampfes
 2110992393|18fca984||Zusätzliche Vitalitätsregeneration im Kampf
@@ -439,7 +439,7 @@
 2110992464|a1370329||Verbessert die Sicht und Atmung während du tauchst.
 2110992471|1b06cd09||Wann immer du einen Gegner tötest verlangsamt sich die Zeit für einen kurzen Moment.
 2110992474|0ced58f4||Bonus des Ausrüstungstyp:
-2110992475|5a519178||Restores Vitality proportional to damage dealt.
+2110992475|5a519178||Stellt Vitalität proportional zum ausgeteilten Schaden wieder her.
 2110992476|2ae9db22||Vitalitätsverlust
 2110992477|e71d7c8d||Alle Bomben und Tränke (ausgenommen Mutagen-Absude) können ein weiteres mal benutzt werden.
 2110992478|fc921506||Erhöht die kritische Trefferstärke um $I$% wenn du einen Gegner von Hinten angreifst.
@@ -457,26 +457,26 @@
 2110992490|fc921508||Wenn du einen Gegner tötest erhälst du +$I$ Ausdauerregeneration für jeden lebenden Gegner im Umkreis. Der maximale Bonus von +$I$ kann nicht überschritten werden. Wird bei Kampfende zurückgesetzt.
 2110992491|754d1896||Du ignorierst die Effekte von Bomben und Spezialbolzen. Allerdings ist der Schaden deiner Bomben und Bolzen halbiert.
 2110992492|8d17aaa2||Während die Adrenalinpunkte auf ihrem Maximum sind ist die kritische Trefferstärke gegen den Gegnertyp um $I$% erhöht.
-2110992493|1d8e4094||Melt Armor Timer
+2110992493|1d8e4094||Melt Armor Timer<br>(ToDo: What's that?)
 2110992494|71e9492e||Sprint/Sprung Aktionskosten Modifikator
 2110992495|6438ae90||Nutze fortlaufende Level Bonuse
 2110992496|fefc523f||Level Delta
 2110992497|1a893f11||Fähigkeiten pro Level Delta
 2110992498|42290b15||Hardcore
-2110992499|eee40a34||Hitting enemies with Aard reduces their Stamina by $I$%, which also increases knockdown and heavy knockdown chances.
-2110992500|c5f2bcea||Increases the range of Whirl by $S$ yards and Rend by $S$ yards. Final damage dealt by these attacks is decreased by $S$%.
-2110992501|257f1e14||When you enter combat, you will automatically get a Quen shield without using any Stamina and with $I$% bonus to Sign Power.
-2110992502|c43de44b||After you cast a Sign, an Adrenaline Point is consumed and your next sword attack is charged with the power of that Sign. Aard: knockdown (chances depend on Attack Power). Igni: $S$% of your weapon damage is added as Fire damage (scales with Attack Power). Yrden: slowdown effect is applied for $S$ sec. Quen: heals Geralt for $S$% of damage dealt. Axii: confusion effect is applied for $S$ sec.
+2110992499|eee40a34||Wenn du Gegner mit Aard triffst wird deren Ausdauer um $I$% reduziert, was sie anfälliger gegenüber Niederschlag und Schwerem Niederschlag werden lässt.
+2110992500|c5f2bcea||Erhöht die Reichweite von Wirbel um $S$ Meter und die Reichweite von Rend um $S$ Meter. Der Schaden der dabei durch diese Angriffe verursacht wird ist um $S$% reduziert.<br>(ToDo: German Skill name for Rend)
+2110992501|257f1e14||Wenn du einen Kampf beginnst, bekommst du automatisch einen Quen Schild ohne die damit verbundenen Ausdauerkosten. Außerdem erhälst du einen Bonus von $I$% auf die Zeichenkraft.
+2110992502|c43de44b||Nachdem du ein Zeichen gewirkt hast wird ein Adrenalinpunkt verbraucht, der deinem nächsten Angriff mit dem Schwert die Kraft des Zeichens verleiht.<br>Aard: Niederschlag (Chance basierend auf Angriffskraft).<br>Igni: $S$% des Waffenschadens wird als Feuerschaden zugefügt (Skaliert mit Angriffskraft).<br>Yrden: Verlangsamt deinen Gegner für $S$ Sekunden.<br>Quen: Heilt dich um $S$% des verursachten Schadens.<br>Axii: Verwirrt den Gegner für $S$ Sekunden.
 2110992503|da9d9544||Derzeitiger Bonus ist $I$ Punkt(e).
 2110992504|0083ce63||Wiederherstellung
 2110992505|0083ce62||Erfrischung
-2110992506|8d17aa9c||Each potion dose imbibed restores $I$% of maximum Stamina. <br><i><b>(ToDo: Better Description)</i></b>
-2110992507|f9241f8c||Excess Adrenaline generated slows down potion expiration timer by $S$% per 1% of excess Adrenaline (3 points = 100%). Max bonus cannot exceed $S$%. The bonus resets when you lose Adrenaline and at the end of the combat.
+2110992506|8d17aa9c||Each potion dose imbibed restores $I$% of maximum Stamina. <br>(ToDo: Figure out what is meant with that)
+2110992507|f9241f8c||Überschüssiges Adrenalin das generiert wird, verlangsamt die Trank-Ablaufzeit um $S$% pro 1% des überschüssigen Adrenalins (3 Punkte = 100$). Der maximale Bonus von $S$% kann nicht überschritten werden. Der Bonus wird zurückgesetzt wenn du Adrenalin verlierst oder der Kampf endet.
 2110992508|fa56c289||Feuerschaden bei Explosion
-2110992510|cea74419||When casting a Sign, 3 Adrenaline Points (if available) will be consumed to upgrade the Sign to the highest level (unlocking all bonuses) and increase Sign intensity by $I$%. If Rage Management is active, Adrenaline Points are not consumed immediately, but sign casting cost is tripled instead.
-2110992511|c1e6ad8c||When casting a Sign, 3 Adrenaline Points (if available) will be consumed to upgrade the Sign to the highest level (unlocking all bonuses) and increase Sign intensity by $I$%. If Rage Management is active, Adrenaline Points are not consumed immediately, but sign casting cost is tripled instead.
-2110992512|c1e6ad8d||When casting a Sign, 3 Adrenaline Points (if available) will be consumed to upgrade the Sign to the highest level (unlocking all bonuses) and increase Sign intensity by $I$%. If Rage Management is active, Adrenaline Points are not consumed immediately, but sign casting cost is tripled instead.
+2110992510|cea74419||Wenn ein Zeichen gewirkt wird werden 3 Adrenalinpunkte (sofern verfügbar) verbraucht um das Zeichen auf das höchste Level zu heben (inkl. aller Boni). Desweiteren wird die Zeichenintesität um $I$% erhöht. Wenn Rage Management aktiv ist werden die Adrenalinpunkte nicht sofort verbraucht, aber die Kosten um Zeichen zu wirken sind 3-mal so hoch.<br>(ToDo: German Skill name for Rage Management)
+2110992511|c1e6ad8c||Wenn ein Zeichen gewirkt wird werden 3 Adrenalinpunkte (sofern verfügbar) verbraucht um das Zeichen auf das höchste Level zu heben (inkl. aller Boni). Desweiteren wird die Zeichenintesität um $I$% erhöht. Wenn Rage Management aktiv ist werden die Adrenalinpunkte nicht sofort verbraucht, aber die Kosten um Zeichen zu wirken sind 3-mal so hoch.<br>(ToDo: German Skill name for Rage Management)
+2110992512|c1e6ad8d||Wenn ein Zeichen gewirkt wird werden 3 Adrenalinpunkte (sofern verfügbar) verbraucht um das Zeichen auf das höchste Level zu heben (inkl. aller Boni). Desweiteren wird die Zeichenintesität um $I$% erhöht. Wenn Rage Management aktiv ist werden die Adrenalinpunkte nicht sofort verbraucht, aber die Kosten um Zeichen zu wirken sind 3-mal so hoch.<br>(ToDo: German Skill name for Rage Management)
 2110992513|e2e48f8a||Deflektion
-2110992514|cea74410||Damage taken from partial parries and counters is reduced by additional $I$% (to $I$% total). Perfectly timed parries reflect arrows back at the attacker.
-2110992515|c1e68bc3||Damage taken from partial parries and counters is reduced by additional $I$% (to $I$% total). Perfectly timed parries reflect back arrows, damage on reflected arrows is increased by $I$%.
-2110992516|4e736cfc||Foes killed by Igni (burning or fire) explode dealing $I$ damage to other enemies within a $I$-yard radius and igniting them. Damage scales with Sign Intensity.
+2110992514|cea74410||Schaden den du durch teilweise Paraden und Konter erleidest ist zusätzlich um $I$% (zum Maximum von $I$%) reduziert. Perfekt getimte Paraden refkletieren Pfeile zurück zum Schützen.
+2110992515|c1e68bc3||Schaden den du durch teilweise Paraden und Konter erleidest ist zusätzlich um $I$% (zum Maximum von $I$%) reduziert. Perfekt getimte Paraden refkletieren Pfeile zurück zum Schützen und der Schaden von refkletierten Pfeilen ist um $I$% erhöht.
+2110992516|4e736cfc||Gegner die durch den Effekt von Igni sterben (Brennen od. Feuer) explodieren und fügen anderen Gegnern $I$ Schaden in einem Umkreis von $I$ Metern zu. Außerdem werden umstehende Feinde in Brand gesteckt.<br>(Skaliert mit Zeichenintesität)
