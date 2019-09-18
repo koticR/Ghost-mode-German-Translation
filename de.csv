@@ -90,7 +90,7 @@
 2110992097|c8467d3c||Zwei Gegner können gleichzeitig von Axii betroffen sein. Die Dauer des Effektes ist um $I$% reduziert.
 2110992098|c8467d3d||Zwei Gegner können gleichzeitig von Axii betroffen sein. Die Dauer des Effektes ist nicht länger reduziert.
 2110992099|1f70c022||Jeder Adrenalinpunkt erhöht die Chance einen Gegner sofort zu töten um $I$%. Dies gilt nicht für die Fähigkeit "Wirbel".
-2110992102|1f70c021||Starker Angriff der durch Abwehrhaltungen, Rüstungen und Schilde geht. Erhöht Waffenschaden um $S$% pro verbrauchten Ausdauerpunkt und um $S$% pro Adrenalinpunkt (max. $S$%). Erhöht kritische Trefferchance um $S$%.
+2110992102|1f70c021||Starker Angriff der durch Abwehrhaltungen, Rüstungen und Schilde geht und außerdem Gegner niederwerfen kann. Wenn $S$ Ausdauerpunkte verfügbar sind entfesselt sich eine starke Schockwelle die alle Gegner in einem $S$ Meter Umkreis Schaden zufügt, sie benommen macht oder zu Boden wirft. Erhöht Waffenschaden um $S$%. Jeder Ausdauer- und Adrenalinpunkt der zusätzlich verbraucht wird erhöht den Waffenschaden um $S$% beziehungsweise um $S$% (Bis zu einem Maximum $S$%). Kritische Trefferchance ist um $S$% erhöht.
 2110992103|1f70c020||Geralt dreht sich im Kreis und fügt jedem Gegner im Umkreis Schaden zu. Gewährt pro zusätzlichen Angreifer $S$% Angriffsstärke (max. $S$%). Die Aufrechterhaltung des Angriffs verbraucht pro Sekunde $S$ Ausdauer. Falls verfügbar, werden Adrenalinpunkte verwendet um den, während des Wirbels, erlittenen Schaden um $S$% zu verringern.
 2110992104|064143d3||Geralt dreht sich im Kreis und fügt jedem Gegner im Umkreis Schaden zu. Gewährt pro zusätzlichen Angreifer $S$% Angriffsstärke (max. $S$%). Die Aufrechterhaltung des Angriffs verbraucht pro Sekunde $S$ Ausdauer. Falls verfügbar, werden Adrenalinpunkte verwendet um den, während des Wirbels, erlittenen Schaden um $S$% zu verringern.
 2110992105|6f2a6f0f||Adrenalingewinn
@@ -160,9 +160,9 @@
 2110992172|754d1891||Zusätzlich zur normalen Kriegstrance erhöht jeder Adrenalinpunkt die Zeichenintensität um $I$%. Die Verwendung von Zeichen erzeugt jetzt die gleiche Menge an Adrenalinpunkten wie bei der Verwendung von Schwertern.
 2110992173|04bda90f||Wird für das Rasieren benötigt.
 2110992174|da7e5ba5||Jedes Teil einer mittleren Rüstung erhöht die Zeichenintensität um $S$% und senkt die Ausdauerkosten für das Wirken von Zeichen um $S$%.
-2110992175|b1173fc7||Das Ziel ist um $I$% verlangsamt während Geralt Axii wirkt. Erhöht die Effektivität von Axii in Dialogen.
-2110992176|c84675ba||Das Ziel ist um $I$% verlangsamt während Geralt Axii wirkt. Erhöht die Effektivität von Axii in Dialogen.
-2110992177|c84675bb||Das Ziel ist um $I$% verlangsamt während Geralt Axii wirkt. Fehlgeschlagene Axii-Versuche betäuben das Ziel. Erhöht die Effektivität von Axii in Dialogen.
+2110992175|b1173fc7||Die Zeit ist zusätzlich um $I$% verlangsamt während du Axii wirkst. Die Chance auf einen kritischen Treffer gegen verwirrte Gegner ist um $I$% erhöht. Erhöht die Effektivität von Axii in Dialogen.
+2110992176|c84675ba||Die Zeit ist zusätzlich um $I$% verlangsamt während du Axii wirkst. Die Chance auf einen kritischen Treffer gegen verwirrte Gegner ist um $I$% erhöht. Erhöht die Effektivität von Axii in Dialogen.
+2110992177|c84675bb||Die Zeit ist zusätzlich um $I$% verlangsamt während du Axii wirkst. Die Chance auf einen kritischen Treffer gegen verwirrte Gegner ist um $I$% erhöht. Erhöht die Effektivität von Axii in Dialogen.
 2110992178|56747c57||Beschleunigt die Vitalitätsregeneration. Die Vitalitätsregeneration wird nicht unterbrochen, wenn Schaden erlitten wird.
 2110992179|b9aff26b||Deine Überbelastung ist zu hoch
 2110992180|b66cd6f6||Versenke das Boot, wenn du überladen bist
@@ -268,7 +268,7 @@
 2110992282|71d0d0e8||Aard verursacht jetzt $I$ Schaden. Der Schaden erhöht sicht mit der Zeichenintensität.<br>Derzeitiger Schaden: $I$
 2110992283|71d0d0e9||Aard verursacht jetzt $I$ Schaden. Der Schaden erhöht sicht mit der Zeichenintensität.<br>Derzeitiger Schaden: $I$
 2110992284|cf2b2d9f||Eine Zielgerichtete Druckwelle aus telekinetischer Energie, die Gegner betäubt und eine $I$% Chance auf Niederschlagen hat. Die Chance auf schweres Niederschlagen ist $I$%. Die Chance skaliert mit der Zeichenintensität und erhöht sich wenn der Gegner wenig Ausdauer hat. Ein starker Niederschlag aktiviert einen Finisher.
-2110992286|cf2b2da3||Vernebelt den Verstand eines Gegners, was ihn vorübergehend aus dem Kampf nimmt. Gewährt eine zusätzliche Chance von $S$% auf kritische Treffer gegen verwirrte Gegner. Kann einen Finisher oder Zerstückeln auslösen, mit einer Chance von $S$%.<br>Verwirrungsdauer: $S$s <br>Skaliert mit der Zeichenintensität.
+2110992286|cf2b2da3||Vernebelt den Verstand eines Gegners, was ihn vorübergehend aus dem Kampf nimmt. Fehlgeschlagene Axii Versuche betäuben den Gegner. Gewährt eine zusätzliche Chance von $S$% auf kritische Treffer gegen verwirrte Gegner. Kann einen Finisher oder Zerstückeln auslösen, mit einer Chance von $S$%.<br>Verwirrungsdauer: $S$s <br>Skaliert mit der Zeichenintensität.
 2110992287|b1173fc8||Die Dauer von Axii ist um $I$% erhöht.
 2110992288|163a8e74||Alternativer Zeichen-Modus:<br>Der anvisierte Gegner wird für $I$s zum Alliierten und erhält einen $I$%igen Bonus auf seine Angriffsstärke. Effektdauer skaliert mit der Zeichenintensität.<br>Derzeitige Dauer: $I$s
 2110992289|71d0cd27||Alternativer Zeichen-Modus:<br>Der anvisierte Gegner wird für $I$s zum Alliierten und erhält einen $I$%igen Bonus auf seine Angriffsstärke. Effektdauer skaliert mit der Zeichenintensität.<br>Derzeitige Dauer: $I$s
@@ -480,3 +480,15 @@
 2110992514|cea74410||Schaden den du durch teilweise Paraden und Konter erleidest ist zusätzlich um $I$% (zum Maximum von $I$%) reduziert. Perfekt getimte Paraden refkletieren Pfeile zurück zum Schützen.
 2110992515|c1e68bc3||Schaden den du durch teilweise Paraden und Konter erleidest ist zusätzlich um $I$% (zum Maximum von $I$%) reduziert. Perfekt getimte Paraden refkletieren Pfeile zurück zum Schützen und der Schaden von refkletierten Pfeilen ist um $I$% erhöht.
 2110992516|4e736cfc||Gegner die durch den Effekt von Igni sterben (Brennen od. Feuer) explodieren und fügen anderen Gegnern $I$ Schaden in einem Umkreis von $I$ Metern zu. Außerdem werden umstehende Feinde in Brand gesteckt.<br>(Skaliert mit Zeichenintesität)
+2110992517|198d31bb||Jeder Gegner der durch Puppenspieler kontrolliert wird, erhöht deine Angriffskraft und Zeichenstärke um $I$% (Bis zu einem Maximum von $I$%).
+2110992518|20609437||Jeder Gegner der durch den Effekt von Axii betroffen ist, erhöht deine kritische Trefferchance und kritische Trefferstärke um $I$% (Bis zu einem Maximum von $I$%).
+2110992519|1dc1cde4||Überdosis Schwellwert
+2110992520|b93269f0||Deine Gegner haben begrenzte Ausdauer. Wenn ihre Ausdauer verbraucht ist, können sie nicht mehr so effektiv kämpfen.
+2110992521|6d1ad3cb||Achte auf die Farbe und das Level deiner Gegner. Grün bedeutet das sie nah an deinem Level sind. Rot bedeuted das sie eine Herausforderung sind und ein Totenschädel bedeutet das sie tötlich sind.
+2110992522|6d1ad3a6||Wenn du deine Waffe an einem Schleifstein schärst wird sie im Kampf effektiver.
+2110992523|6d1ad427||Triffst du einen Gegner aus vollem Galopp fügst du erhähten Schaden zu.
+2110992524|b93269e9||Wenn du einen Gegner von hinten angreiffst erhöht sich deine kritische Trefferchance.
+2110992525|6d1ad3e4||Geziehlte Schüsse mit der Armbrust oder mit Bomben erhöhen deren Schaden.
+2110992526|6d1ad447||Du kannst Pfeile und Bolzen mit deinem Schwert abwehren.
+2110992527|363f99af||Du kannst Quen nutzen um dich vor kritischen Effekten wie Brennen, Bluten usw. zu schützen.
+2110992528|6d1ad3cc||Ausweichen ist in den meisten Fällen die beste Taktik gegen größere Gegner. Angriffe kleinerer Monster oder von Menschen können aber auch parriert und gekontert werden.
