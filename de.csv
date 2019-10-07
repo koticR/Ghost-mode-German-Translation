@@ -227,7 +227,7 @@
 2110992241|e71d7c8e||Alle deine Nahkampfangriffe kosten $S$% mehr Ausdauer. Aber erfolgreiche Nahkampfangriffe reduzieren die Gesundheit deines Gegners um $S$% pro Ausdauerpunkt der für den Angriff benötigt wurde.
 2110992242|fc921527||Jedes ausgerüste kleine grüne Mutagen erhöht deine Vitalitätsregenerationsrate um $S$/sek. Grüne Mutagene erhöhen diesen Bonus auf $S$/sek und Große grüne Mutagene sogar auf $S$/sek.
 2110992243|e71d7c93||Jedes ausgerüste kleine blaue Mutagen erhöht deinen Grundschaden um $S$ Punkt(e). Blaue Mutagene erhöhen diesen Bonus auf $S$ und Große blaue Mutagene sogar auf $S$.
-2110992244|fc921524||Erhöht Geralts Resistenz gegen Blutung, Brand & Gift Effekte und Schaden um $I$%.<br><i><b>(ToDo: Better Description)
+2110992244|fc921524||Erhöht Geralts Resistenz gegen Blutung, Brand & Gift Effekte.<br>Desweiterem auch den Schaden um $I$%.
 2110992245|fc921525||Regeniert Vitalität um $S$% für jeden verbrauchten Ausdauerpunkt. Funktioniert nur während des Kampfs.
 2110992246|e71d7c91||Regeniert Vitalität um $S$% basierend auf dem ausgeteilten Schaden.
 2110992247|fc921505||Das Wirken eines Zeichens erhöht deine Angriffskraft um $I$% (max. $I$%). Wird zurückgesetzt wenn Schaden ausgeteilt wird oder der Kampf endet.
@@ -374,7 +374,7 @@
 2110992398|dd7afaaa||Angriff ist die beste Verteidigung
 2110992399|754d18b0||Killing an enemy restores $I$% of your Stamina (no Abklingzeit). Critical hits and successful counters restore $I$% of your Stamina ($S$ sec Abklingzeit).
 2110992400|cf56fd86||Wirbel Abklingzeit
-2110992401|c9405593||Rend Abklingzeit
+2110992401|c9405593||Zerfleischen Abklingzeit
 2110992402|27591c8a||Aard Abklingzeit
 2110992403|3b779b63||Igni Abklingzeit
 2110992404|16ae6564||Yrden Abklingzeit
@@ -411,14 +411,14 @@
 2110992435|9ec8a226||Stellt augenblicklich deine Vitalität wieder her und stoppt Blutungseffekte. Gewährt außerdem für eine kurzer Zeit Unverwundbarkeit.
 2110992436|fc921529||Jedes ausgerüste kleine rote Mutagen verringert die Ausdauerkosten für Nahkampfangriffe um $S$%. Rote Mutagene erhöhen diesen Bonus auf $S$% und Große rote Mutagene sogar um $S$%.
 2110992438|db289661||Wirbel Ausdauerkosten
-2110992439|492006da||Rend Ausdauerkosten
+2110992439|492006da||Zerfleischen Ausdauerkosten
 2110992440|6fd9d47c||Chance auf Zerstückeln
 2110992441|ccb8d32f||QoL
-2110992442|7cc7f3f3||Low stamina sfx threshold (percents)
-2110992443|2f23ba87||Low stamina sfx volume
-2110992444|909fc586||Use dynamic low stamina sfx volume
-2110992445|b55191ac||Low stamina sfx rate
-2110992446|8356e68d||Use dynamic low stamina sfx rate
+2110992442|7cc7f3f3||SFX Schwellwert für niedriege Ausdauer (In Prozent)
+2110992443|2f23ba87||SFX Lautstärke für niedriege Ausdauer
+2110992444|909fc586||Nutze dynamische SFX Lautstärke für niedriege Ausdauer
+2110992445|b55191ac||SFX Rate für niedriege Ausdauer
+2110992446|8356e68d||Nutze dynamische SFX Rate für niedriege Ausdauer
 2110992447|6f6ee452||QoL Vorgaben
 2110992448|9be2d670||Empfohlen
 2110992449|433edeb8||Aus
@@ -426,10 +426,10 @@
 2110992451|76c320d6||Standard
 2110992452|5c5d3961||Erfahrung Vorgaben
 2110992453|e30aa64b||Skalierung Vorgaben
-2110992454|15dda917||Mutagen-Absude erhöhen die maximale Vitalität um $I$ Punkte pro Punkt an Vergiftungsausgleich für die gesammte Dauer des Mutagen-Absudes.<br><i><b>(ToDo: Better Description)
+2110992454|15dda917||Mutagen-Absude erhöhen die maximale Vitalität um $I$ Punkte für jeden zusätzlichen Punkt an Vergiftung über dem Überdosis Schwellwert. Hält über gesammte Dauer des Mutagen-Absudes.
 2110992455|e71d7c8b||Nicht-kritischer Schaden mit einem Schwert erhöht die kritische Trefferchance für Folgeangriffe um $I$% (max $I$%). Wenn die maximale kritische Trefferchance erreicht wurde erhälst du stattdessen $I$% auf die kritische Trefferstärke. Bei erfolgreichem kritischen Treffer oder bei Kampfende wird der Bonus zurückgesetzt.
 2110992456|0391a988||Schadensreduktion
-2110992457|fc92150b||Treffer-Reaktionsstärke ist auf Null reduziert, solang der erlittenen Schaden weniger als $I$% deiner maximalen Vitalität ist.<br><i><b>(ToDo: Better Description)
+2110992457|fc92150b||Treffer-Reaktionsstärke ist auf Null reduziert, solang der erlittenen Schaden weniger als $I$% deiner maximalen Vitalität ist.
 2110992458|47ae434f||Aktivere Ausdauerregeneration-Strafen von Rüstungen
 2110992459|c87c8420||Vanilla(ish)
 2110992460|40851a26||Die Dauer der magischen Falle ist um $I$% verlängert. Es kann nun eine weitere Falle platziert werden.
@@ -457,25 +457,25 @@
 2110992490|fc921508||Wenn du einen Gegner tötest erhälst du +$I$ Ausdauerregeneration für jeden lebenden Gegner im Umkreis. Der maximale Bonus von +$I$ kann nicht überschritten werden. Wird bei Kampfende zurückgesetzt.
 2110992491|754d1896||Du ignorierst die Effekte von Bomben und Spezialbolzen. Allerdings ist der Schaden deiner Bomben und Bolzen halbiert.
 2110992492|8d17aaa2||Während die Adrenalinpunkte auf ihrem Maximum sind ist die kritische Trefferstärke gegen den Gegnertyp um $I$% erhöht.
-2110992493|1d8e4094||Melt Armor Timer<br>(ToDo: What's that?)
+2110992493|1d8e4094||Geschmolzene Rüstung Timer
 2110992494|71e9492e||Sprint/Sprung Aktionskosten Modifikator
 2110992495|6438ae90||Nutze fortlaufende Level Bonuse
 2110992496|fefc523f||Level Delta
 2110992497|1a893f11||Fähigkeiten pro Level Delta
 2110992498|42290b15||Hardcore
 2110992499|eee40a34||Wenn du Gegner mit Aard triffst wird deren Ausdauer um $I$% reduziert, was sie anfälliger gegenüber Niederschlag und Schwerem Niederschlag werden lässt.
-2110992500|c5f2bcea||Erhöht die Reichweite von Wirbel um $S$ Meter und die Reichweite von Rend um $S$ Meter. Der Schaden der dabei durch diese Angriffe verursacht wird ist um $S$% reduziert.<br>(ToDo: German Skill name for Rend)
+2110992500|c5f2bcea||Erhöht die Reichweite von Wirbel um $S$ Meter und die Reichweite von Zerfleischen um $S$ Meter. Der Schaden der dabei durch diese Angriffe verursacht wird ist um $S$% reduziert.
 2110992501|257f1e14||Wenn du einen Kampf beginnst, bekommst du automatisch einen Quen Schild ohne die damit verbundenen Ausdauerkosten. Außerdem erhälst du einen Bonus von $I$% auf die Zeichenkraft.
 2110992502|c43de44b||Nachdem du ein Zeichen gewirkt hast wird ein Adrenalinpunkt verbraucht, der deinem nächsten Angriff mit dem Schwert die Kraft des Zeichens verleiht.<br>Aard: Niederschlag (Chance basierend auf Angriffskraft).<br>Igni: $S$% des Waffenschadens wird als Feuerschaden zugefügt (Skaliert mit Angriffskraft).<br>Yrden: Verlangsamt deinen Gegner für $S$ Sekunden.<br>Quen: Heilt dich um $S$% des verursachten Schadens.<br>Axii: Verwirrt den Gegner für $S$ Sekunden.
 2110992503|da9d9544||Derzeitiger Bonus ist $I$ Punkt(e).
 2110992504|0083ce63||Wiederherstellung
 2110992505|0083ce62||Erfrischung
-2110992506|8d17aa9c||Each potion dose imbibed restores $I$% of maximum Stamina. <br>(ToDo: Figure out what is meant with that)
+2110992506|8d17aa9c||Jede Trankportion stellt $I$% der maximalen Ausdauer wieder her.
 2110992507|f9241f8c||Überschüssiges Adrenalin das generiert wird, verlangsamt die Trank-Ablaufzeit um $S$% pro 1% des überschüssigen Adrenalins (3 Punkte = 100$). Der maximale Bonus von $S$% kann nicht überschritten werden. Der Bonus wird zurückgesetzt wenn du Adrenalin verlierst oder der Kampf endet.
 2110992508|fa56c289||Feuerschaden bei Explosion
-2110992510|cea74419||Wenn ein Zeichen gewirkt wird werden 3 Adrenalinpunkte (sofern verfügbar) verbraucht um das Zeichen auf das höchste Level zu heben (inkl. aller Boni). Desweiteren wird die Zeichenintesität um $I$% erhöht. Wenn Rage Management aktiv ist werden die Adrenalinpunkte nicht sofort verbraucht, aber die Kosten um Zeichen zu wirken sind 3-mal so hoch.<br>(ToDo: German Skill name for Rage Management)
-2110992511|c1e6ad8c||Wenn ein Zeichen gewirkt wird werden 3 Adrenalinpunkte (sofern verfügbar) verbraucht um das Zeichen auf das höchste Level zu heben (inkl. aller Boni). Desweiteren wird die Zeichenintesität um $I$% erhöht. Wenn Rage Management aktiv ist werden die Adrenalinpunkte nicht sofort verbraucht, aber die Kosten um Zeichen zu wirken sind 3-mal so hoch.<br>(ToDo: German Skill name for Rage Management)
-2110992512|c1e6ad8d||Wenn ein Zeichen gewirkt wird werden 3 Adrenalinpunkte (sofern verfügbar) verbraucht um das Zeichen auf das höchste Level zu heben (inkl. aller Boni). Desweiteren wird die Zeichenintesität um $I$% erhöht. Wenn Rage Management aktiv ist werden die Adrenalinpunkte nicht sofort verbraucht, aber die Kosten um Zeichen zu wirken sind 3-mal so hoch.<br>(ToDo: German Skill name for Rage Management)
+2110992510|cea74419||Wenn ein Zeichen gewirkt wird werden 3 Adrenalinpunkte (sofern verfügbar) verbraucht um das Zeichen auf das höchste Level zu heben (inkl. aller Boni). Desweiteren wird die Zeichenintesität um $I$% erhöht. Wenn Wutkontrolle aktiv ist werden die Adrenalinpunkte nicht sofort verbraucht, aber die Kosten um Zeichen zu wirken sind 3-mal so hoch.
+2110992511|c1e6ad8c||Wenn ein Zeichen gewirkt wird werden 3 Adrenalinpunkte (sofern verfügbar) verbraucht um das Zeichen auf das höchste Level zu heben (inkl. aller Boni). Desweiteren wird die Zeichenintesität um $I$% erhöht. Wenn Wutkontrolle aktiv ist werden die Adrenalinpunkte nicht sofort verbraucht, aber die Kosten um Zeichen zu wirken sind 3-mal so hoch.
+2110992512|c1e6ad8d||Wenn ein Zeichen gewirkt wird werden 3 Adrenalinpunkte (sofern verfügbar) verbraucht um das Zeichen auf das höchste Level zu heben (inkl. aller Boni). Desweiteren wird die Zeichenintesität um $I$% erhöht. Wenn Wutkontrolle aktiv ist werden die Adrenalinpunkte nicht sofort verbraucht, aber die Kosten um Zeichen zu wirken sind 3-mal so hoch.
 2110992513|e2e48f8a||Deflektion
 2110992514|cea74410||Schaden den du durch teilweise Paraden und Konter erleidest ist zusätzlich um $I$% (zum Maximum von $I$%) reduziert. Perfekt getimte Paraden refkletieren Pfeile zurück zum Schützen.
 2110992515|c1e68bc3||Schaden den du durch teilweise Paraden und Konter erleidest ist zusätzlich um $I$% (zum Maximum von $I$%) reduziert. Perfekt getimte Paraden refkletieren Pfeile zurück zum Schützen und der Schaden von refkletierten Pfeilen ist um $I$% erhöht.

@@ -26,5 +26,5 @@ The only importance is that you copy the file to the mod folder 'mods\modGhostMo
 
 NOTE: All other files are unimportant and not required, they are used by the developer of the mod.
 So ignore:
-- gm.de.csv
+- de.csv
 - de.w3strings.ws
